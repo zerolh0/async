@@ -33,7 +33,7 @@ jobs:
 
   build:
     permissions:
-      actions: write  # for styfle/cancel-workflow-action to cancel/stop running workflows 
+      actions: write  # for styfle/cancel-workflow-action to cancel/stop running workflows
       checks: write  # for coverallsapp/github-action to create new checks
       contents: read  # for actions/checkout to fetch code
     runs-on: ${{ matrix.os }}
