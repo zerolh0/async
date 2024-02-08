@@ -1,6 +1,5 @@
 name: CI-CodeBuild 🚀
 
-
 on:
   push:
     branches-ignore:
